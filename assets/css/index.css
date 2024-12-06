@@ -1,0 +1,111 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fondo gris muy claro */
+    color: #333; /* Texto gris oscuro */
+    margin: 0;
+    padding: 0; /* Cambiado a 0 para evitar el espaciado alrededor del contenido */
+}
+
+/* assets/css/menu.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Fondo gris claro */
+}
+
+.navbar {
+    background-color: #ff6f91; /* Color de fondo rosado */
+    overflow: hidden; /* Asegura que el contenido se ajuste */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    display: flex; /* Usar flexbox para alinear elementos */
+    justify-content: space-between; /* Espacio entre logo y enlaces */
+    align-items: center; /* Centrar verticalmente */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+.navbar .logo a {
+    color: white; /* Color del texto del logo */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 24px; /* Tamaño de fuente del logo */
+    font-weight: bold; /* Negrita para el logo */
+}
+
+.nav-links {
+    list-style-type: none; /* Eliminar viñetas */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin padding */
+    display: flex; /* Mostrar los elementos en línea */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Espaciado entre los enlaces */
+}
+
+.nav-links a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, transform 0.3s; /* Transición suave para el fondo y transformación */
+}
+
+.nav-links a:hover {
+    background-color: #ff4f81; /* Color de fondo al pasar el ratón */
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+/* Estilo de la tabla */
+table {
+    width: 80%; /* Ancho de la tabla */
+    margin: 20px auto; /* Centrar la tabla */
+    border-collapse: collapse; /* Colapsar bordes */
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para la tabla */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+th, td {
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alinear texto a la izquierda */
+    border: 1px solid #ddd; /* Borde gris claro */
+}
+
+th {
+    background-color: #ff6f91; /* Rosa fuerte */
+    color: white; /* Texto blanco */
+}
+
+/* Estilo de los enlaces de acción en la tabla */
+a {
+    background-color: #ff6f91; /* Rosa fuerte */
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    display: inline-block; /* Asegura que el enlace sea un bloque */
+    width: auto; /* Ancho automático para los enlaces */
+    text-align: center; /* Centrar el texto */
+}
+
+a:hover {
+    background-color: #ff4f81; /* Rosa más claro */
+}
+
+/* Estilo para los botones de acción en la tabla */
+.btn-eliminar,
+.btn-editar {
+    background-color: #ff6f91; /* Rosa fuerte */
+    color: white;
+    padding: 10px; /* Aumentar el espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    width: 100px; /* Ancho fijo para los botones */
+    text-align: center; /* Centrar el texto */
+    display: inline-block; /* Asegura que el botón sea un bloque */
+    margin: 0 5px;
+}

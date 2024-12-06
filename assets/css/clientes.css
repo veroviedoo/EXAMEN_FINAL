@@ -1,0 +1,125 @@
+/* Estilo general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9; /* Fondo gris muy claro */
+    color: #333; /* Texto gris oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #ff6f91; /* Rosa suave */
+    margin-top: 20px;
+}
+
+/* Estilo del formulario */
+form {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Para incluir padding en el ancho total */
+}
+
+/* Botón de acción */
+button {
+    background-color: #ff6f91; /* Rosa suave */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff6f91; /* Rosa más oscuro */
+}
+
+/* Estilo de la tabla */
+table {
+    width: 70%; /* Ancho reducido de la tabla */
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+th, td {
+    padding: 8px; /* Padding reducido */
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #ff6f91; /* Rosa suave */
+    color: white; /* Texto blanco */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Gris claro */
+}
+
+/* Enlaces (botones) */
+a {
+    background-color: #ff6f91; /* Rosa suave */
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #ff6f91; /* Rosa más oscuro */
+}
+
+/* Estilo para mensajes de éxito o error */
+.message {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: #d4edda; /* Verde claro */
+    color: #155724; /* Verde oscuro */
+}
+
+.error {
+    background-color: #f8d7da; /* Rojo claro */
+    color: #721c24; /* Rojo oscuro */
+}
+
+/* Estilo para los botones de acción en la tabla */
+.action-buttons {
+    display: flex; /* Usar flexbox para alinear los botones */
+    justify-content: center; /* Centrar los botones */
+}
+
+.action-buttons form {
+    margin: 0 5px; /* Espaciado entre los formularios */
+}

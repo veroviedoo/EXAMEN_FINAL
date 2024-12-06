@@ -1,0 +1,111 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5e4e4; /* Fondo gris muy claro */
+    color: #333; /* Texto gris oscuro */
+    margin: 0;
+    padding: 0; /* Cambiado a 0 para evitar el espaciado alrededor del contenido */
+}
+
+/* assets/css/menu.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Fondo gris claro */
+}
+
+.navbar {
+    background-color: #ff6f91; /* Color de fondo rosado */
+    overflow: hidden; /* Asegura que el contenido se ajuste */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    display: flex; /* Usar flexbox para alinear elementos */
+    justify-content: space-between; /* Espacio entre logo y enlaces */
+    align-items: center; /* Centrar verticalmente */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+.navbar .logo a {
+    color: white; /* Color del texto del logo */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 24px; /* Tamaño de fuente del logo */
+    font-weight: bold; /* Negrita para el logo */
+}
+
+.nav-links {
+    list-style-type: none; /* Eliminar viñetas */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin padding */
+    display: flex; /* Mostrar los elementos en línea */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Espaciado entre los enlaces */
+}
+
+.nav-links a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, transform 0.3s; /* Transición suave para el fondo y transformación */
+}
+
+.nav-links a:hover {
+    background-color: #ff4f81; /* Color de fondo al pasar el ratón */
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+/* Estilo del encabezado */
+h1 {
+    text-align: center; /* Centrar el título */
+    color: #ff6f91; /* Color rosado */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+}
+
+/* Estilo del formulario */
+form {
+    background-color: #fecece; /* Fondo blanco para el formulario */
+    padding: 30px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block; /* Hacer que las etiquetas ocupen toda la línea */
+    margin-bottom: 5px; /* Espaciado debajo de las etiquetas */
+    font-weight: bold; /* Negrita para las etiquetas */
+}
+
+/* Estilo de los campos de entrada */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Aumentar el espaciado interno */
+    margin-bottom: 15px; /* Espaciado debajo de los campos */
+    border: 1px solid #ff9a9a; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir padding en el ancho total */
+    font-size: 16px; /* Aumentar el tamaño de la fuente */
+}
+
+/* Estilo de los botones */
+button {
+    background-color: #ff6f91; /* Color rosado para el botón */
+    color: rgb(255, 223, 223); /* Texto blanco */
+    padding: 10px; /* Aumentar el espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    width: 100%; /* Ancho completo */
+    font-size: 16px; /* Aumentar el tamaño de la fuente */
+}
+
+button:hover {
+    background-color: #ff4f81; /* Color de fondo al pasar el ratón */
+}

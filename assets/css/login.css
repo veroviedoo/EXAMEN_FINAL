@@ -1,0 +1,78 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('beautystock/img/IMG_7295.PNG') no-repeat center center fixed; /* Imagen de fondo */
+    background-size: cover; /* Cubrir toda la pantalla */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor de inicio de sesión */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d36f89; /* Rosa fuerte */
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #5b2c6f; /* Morado oscuro */
+}
+
+/* Estilo de los campos de entrada */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Efecto al enfocar el campo de entrada */
+input:focus {
+    border-color: #d36f89; /* Color de borde al enfocar */
+    outline: none; /* Sin contorno */
+}
+
+/* Estilo del botón */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6f91; /* Color de fondo del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+button:hover {
+    background-color: #d36f89; /* Color más claro al pasar el mouse */
+}
+
+/* Estilo de mensaje de error */
+.error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}

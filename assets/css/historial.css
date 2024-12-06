@@ -1,0 +1,124 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbe3f1; /* Fondo rosa suave */
+    color: #5b2c6f; /* Texto morado oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* assets/css/menu.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Fondo gris claro */
+}
+
+.navbar {
+    background-color: #ff6f91; /* Color de fondo rosado */
+    overflow: hidden; /* Asegura que el contenido se ajuste */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    display: flex; /* Usar flexbox para alinear elementos */
+    justify-content: space-between; /* Espacio entre logo y enlaces */
+    align-items: center; /* Centrar verticalmente */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+.navbar .logo a {
+    color: white; /* Color del texto del logo */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 24px; /* Tamaño de fuente del logo */
+    font-weight: bold; /* Negrita para el logo */
+}
+
+.nav-links {
+    list-style-type: none; /* Eliminar viñetas */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin padding */
+    display: flex; /* Mostrar los elementos en línea */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Espaciado entre los enlaces */
+}
+
+.nav-links a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, transform 0.3s; /* Transición suave para el fondo y transformación */
+}
+
+.nav-links a:hover {
+    background-color: #ff4f81; /* Color de fondo al pasar el ratón */
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #d36f89; /* Rosa fuerte */
+    margin-top: 20px;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #ff6f91; /* Rosa fuerte */
+    color: white; /* Texto blanco */
+}
+
+tr:nth-child(even) {
+    background-color: #fbe3f1; /* Rosa claro */
+}
+
+/* Enlaces (botones) */
+a {
+    background-color: #ff6f91; /* Rosa fuerte */
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+/* Estilo para el botón de eliminar */
+button.eliminar {
+    background-color: #e74c3c; /* Color de fondo rojo */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+/* Efecto hover para el botón de eliminar */
+button.eliminar:hover {
+    background-color: #c0392b; /* Color más oscuro al pasar el mouse */
+}
+
+a:hover {
+    background-color: #ff6f91; /* Rosa más claro */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    padding: 20px; /* Espaciado alrededor del contenido */
+}
